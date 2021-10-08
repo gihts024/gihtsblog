@@ -1,0 +1,48 @@
+
+
+{{!-- <div class="text-center">
+  <h2>{{title}}</h2>
+  <p>{{{get_emoji}}}</p>
+  <p>{{description}}</p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>
+   
+    <span class="blog_keyword">{{format_keyword keywords}}</span>
+    needed
+  </p>
+  <p>
+    <button class="btn btn-primary">Leave a Comment!</button>
+  </p>
+</div> --}}
+
+
+
+
+  <div class="row">
+    <div class="col s12">
+      <div class="card large">
+        <div class="image">
+          <img src="./../public/images/sample-1.jpg">
+           </div>
+          <p>{{{get_emoji}}}</p>
+          <span class="card-title">{{title}}</span>
+         
+        <div class="card-content">
+          <p>{{description}}</p>
+        </div>
+        <p>
+   
+    <span class="blog_keyword">{{keywords}}</span>
+    
+  </p>
+        <div class="card-action">
+          <a href="#"> <form><div class="form-group" >
+        <label for="blog-desc">Enter Comment</label>
+        <textarea class="form-input" id="blog-desc" name="blog-desc"></textarea></form>
+            
+      <button class="btn btn-primary">Leave a Comment!</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+           
