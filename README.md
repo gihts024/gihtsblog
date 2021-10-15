@@ -17,6 +17,8 @@ npm i
 ## usage ##
 
 npm run seed, npm start
+create an account and post an item.
+Enter the title and keyword
 
 ## License ##
 
